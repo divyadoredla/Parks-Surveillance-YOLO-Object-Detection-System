@@ -1,0 +1,36 @@
+# Python / Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# YOLO Models & Weights (These are large and shouldn't be pushed)
+*.pt
+*.onnx
+
+# Uploads and Processed Results
+uploads/
+detection_results/
+inference_results/
+runs/
+
+# Large Datasets and Media
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.csv
+
+# Exceptions (keep these images if they are part of docs or small examples)
+!image.png
+!pic1.jpg
+
+# SQLite Database
+surveillance.db
+*.sqlite3
+
+# OS specific
+.DS_Store
+Thumbs.db
