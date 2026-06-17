@@ -257,6 +257,9 @@ def home_page():
     
     Navigate to the **Upload & Predict** section to start detecting objects in your images and videos!
     """)
+    
+    st.markdown("---")
+    st.markdown("<p style='text-align: center; color: gray;'>Built with ❤️ for Parks Surveillance</p>", unsafe_allow_html=True)
 
 
 def upload_page():
