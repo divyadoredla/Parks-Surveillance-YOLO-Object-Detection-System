@@ -45,7 +45,7 @@ def init_database():
         # Create default admin user (username: admin, password: admin123)
         password_hash = hash_password("admin123")
         cursor.execute(
-            "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+            "INSERT OR IGNORE INTO users (username, password_hash) VALUES (?, ?)",
             ("admin", password_hash)
         )
         print("✓ Default admin user created (username: admin, password: admin123)")
