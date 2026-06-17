@@ -1,5 +1,7 @@
 # Parks Surveillance - YOLO Object Detection System
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://parks-surveillance-yolo-object-detection-system.streamlit.app/)
+
 A comprehensive YOLO-based object detection system for parks surveillance with training, inference, and batch processing capabilities.
 
 ## 🎯 Project Overview
